@@ -10,11 +10,12 @@ import tflearn
 
 import cPickle
 
+
 # Define the neural network
 def build_model(dimTrainX, dimTrainY):
     # This resets all parameters and variables, leave this here
     tf.reset_default_graph()
-    
+
     # Inputs
     net = tflearn.input_data([None, dimTrainX],dtype=tf.float32)
 
@@ -38,4 +39,4 @@ def getComputerFunc(model):
         y = model.predict([ori])
         return y[0].argmax()
     return computerNext
-              
+
