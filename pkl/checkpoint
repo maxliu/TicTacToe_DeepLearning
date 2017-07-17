@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/xinyu/mycode/myToe/pkl/ttt_model.tflearn"
+all_model_checkpoint_paths: "/home/xinyu/mycode/myToe/pkl/ttt_model.tflearn"
